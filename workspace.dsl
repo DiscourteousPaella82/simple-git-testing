@@ -26,6 +26,11 @@ workspace "Name" "Description" {
             autolayout lr
         }
 
+        systemContext ss "system_Context" {
+            include *
+            autolayout lr
+        }
+
         styles {
             element "Element" {
                 color #9a28f8
